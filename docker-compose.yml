@@ -1,0 +1,6 @@
+services:
+  snavigation:
+    image: dalefengs/snavigation
+    container_name: snavigation
+    volumes:
+      - /www/wwwroot/nav:/web/dist
