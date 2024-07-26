@@ -1,6 +1,8 @@
 services:
   snavigation:
-    image: dalefengs/snavigation
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: snavigation
     volumes:
       - /www/wwwroot/nav:/web/dist
